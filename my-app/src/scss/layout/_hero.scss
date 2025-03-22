@@ -1,12 +1,30 @@
+
 .hero{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,32,130,1) 100%);
+    background-image: url("../../../src/assets/walling-XLqiL-rz4V8-unsplash.jpg");
+    display: block;
+    width: 100vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
 
     .hero__content{
+        justify-content: start;
+        background: red;
+
+        .titulo{
+            color: white;
+            font-family: arsenal SC;
+        }
+
+        .texto{
+            font-family: mulish;
+        }
     }
 }
 
-.imgFondo{
-    height: 70vh;
-    object-fit: cover;
-}
