@@ -1,7 +1,8 @@
+@use '../base/variables' as v;
 
 .feature{
     width: 100vw;
-    height: 100vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     padding-bottom: 20px; 
@@ -9,25 +10,59 @@
     text-align: center;
 
     .titulo{
-        background: red;
         padding-left: 40px;
         padding-right: 40px;
     }
 
     .lista{
         width: 100vw;
-        height: 100vh;
-        background: blue;
+        height: 60vh;
         display: flex;
-        flex-direction: row;
-        flex-direction: wrap;
+        flex-direction: column;
         padding: 0;
+        
 
         .item{
-            display: inline;
-            background: green;
-            width: 50vw;
+            width: 100vw;
             height: 20vh;
+            display: flex;
+            flex-direction: row;
+            padding-top: 10px;
+            
+            .item1{
+                width: 50vw;
+                height: 22vh; 
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .item2{
+                width: 50vw;
+                height: 22vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .circulo{
+                width: 8vw;
+                height: 4vh;
+                border: 2px solid v.$lila;
+                border-radius: 50%;
+                padding-top: 9px;
+
+                i{
+                    width: 15px;
+                    height: 15px;
+                    color: v.$lila;
+                }
+            }
+            span{
+                color: v.$lila;
+            }
         }
     }
 }
