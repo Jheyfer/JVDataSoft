@@ -4,7 +4,7 @@ export default function Header() {
         <header>
             <nav className="navbar">
                 <div className="imageHeader"></div>
-                <h1>DataSoft</h1>
+                <h1 className="header-tittle" >Data<b>Soft</b></h1>
             </nav>
         </header>
     )

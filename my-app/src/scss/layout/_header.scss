@@ -1,3 +1,6 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
 .navbar {
     display: flex;
     align-items: center;
@@ -11,5 +14,44 @@
         width: 60px;
         border-radius: 50%;
         margin: 5px;
+    }
+
+    .header-tittle {
+        font-weight: 500;
+        font-size: 1.5rem;
+
+        b {
+            color: v.$lila;
+        }
+    }
+
+
+}
+
+@include m.tablet {
+    .navbar {
+
+        .imageHeader {
+            height: 75px;
+            width: 75px;
+        }
+
+        .header-tittle {
+            font-size: 2.1rem;
+        }
+    }
+}
+
+@include m.desktop {
+    .navbar {
+
+        .imageHeader {
+            height: 90px;
+            width: 90px;
+        }
+
+        .header-tittle {
+            font-size: 2.8rem;
+        }
     }
 }
