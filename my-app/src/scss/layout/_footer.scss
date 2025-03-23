@@ -1,0 +1,54 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.footer {
+    padding: 8px;
+
+    p {
+        text-align: center;
+
+        b {
+            color: v.$lila;
+        }
+    }
+
+    .footer__contact {
+        text-align: center;
+
+        i {
+            color: v.$lila;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 0;
+        }
+
+    }
+}
+
+@include m.tablet {
+    .footer {
+        h3 {
+            font-size: 1.8rem;
+        }
+
+        i {
+            font-size: 20px;
+        }
+    }
+}
+
+@include m.desktop {
+    .footer {
+        h3 {
+            font-size: 2.1rem;
+        }
+
+        i {
+            font-size: 24px;
+        }
+    }
+}
