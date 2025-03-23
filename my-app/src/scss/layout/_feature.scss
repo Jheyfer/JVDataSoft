@@ -1,0 +1,33 @@
+
+.feature{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px; 
+    padding-top: 20px;
+    text-align: center;
+
+    .titulo{
+        background: red;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .lista{
+        width: 100vw;
+        height: 100vh;
+        background: blue;
+        display: flex;
+        flex-direction: row;
+        flex-direction: wrap;
+        padding: 0;
+
+        .item{
+            display: inline;
+            background: green;
+            width: 50vw;
+            height: 20vh;
+        }
+    }
+}
