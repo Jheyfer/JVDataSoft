@@ -1,6 +1,6 @@
 export default function Form() {
     return (
-        <div id="contact">
+        <div id="contact" className="contactanos">
             <h2>Contactanos</h2>
             <form>
                 <label htmlFor="name">Nombre</label>

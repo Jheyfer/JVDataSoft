@@ -5,40 +5,53 @@ export default function feature() {
 
             <ul className="lista">
                 <li className="item">
-                    <div>
-                        <i class="fa-solid fa-pen"></i>
+                    <div className="item1">
+                        <div className="circulo">
+                            <i class="fa-solid fa-pen"></i>
+                        </div>
+                        <p><span> Diseño personalizado: </span><br/>
+                        Adaptado a tu marca y objetivos.</p>
                     </div>
-                    <p><span> Diseño personalizado: </span>Adaptado a tu marca y objetivos.</p>
+                    <div className="item2">
+                        <div className="circulo">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+                        <p><span> Velocidad y optimización: </span><br/>
+                        Carga rápida y SEO para más tráfico.</p>
+                    </div>
                 </li>
+                
                 <li className="item">
-                    <div>
-                        <i class="fa-regular fa-clock"></i>
+                    <div className="item1">
+                        <div className="circulo">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <p><span>Seguridad y estabilidad: </span><br/>
+                        Protección contra ataques y caídas.</p>
                     </div>
-                    <p><span> Velocidad y optimización: </span>Carga rápida y SEO para más tráfico.</p>
+                    <div className="item2">
+                        <div className="circulo">
+                            <i class="fa-solid fa-wrench"></i>
+                        </div>
+                        <p><span>Funcionalidades a medida: </span><br/>
+                        Tiendas online, reservas, blogs y más.</p>
+                    </div>
                 </li>
+
                 <li className="item">
-                    <div>
-                        <i class="fa-solid fa-gear"></i>
+                    <div className="item1">
+                        <div className="circulo">
+                            <i class="fa-solid fa-mobile"></i>
+                        </div>
+                        <p><span>100% Responsivo: </span>v<br/>
+                        Se ve perfecto en computadoras y móviles.</p>
                     </div>
-                    <p><span>Seguridad y estabilidad: </span>Protección contra ataques y caídas.</p>
-                </li>
-                <li className="item">
-                    <div>
-                        <i class="fa-solid fa-wrench"></i>
+                    <div className="item2">
+                        <div className="circulo">
+                            <i class="fa-solid fa-calendar"></i>
+                        </div>
+                        <p>¡Lanza tu sitio en días, no en meses!</p>
                     </div>
-                    <p><span>Funcionalidades a medida: </span>Tiendas online, reservas, blogs y más.</p>
-                </li>
-                <li className="item">
-                    <div>
-                        <i class="fa-thin fa-mobile"></i>
-                    </div>
-                    <p><span>100% Responsivo: </span>Se ve perfecto en computadoras y móviles.</p>
-                </li>
-                <li className="item">
-                    <div>
-                        <i class="fa-light fa-calendar"></i>
-                    </div>
-                    <p>¡Lanza tu sitio en días, no en meses!</p>
                 </li>
             </ul>
         </div>
