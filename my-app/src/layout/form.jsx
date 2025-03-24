@@ -1,9 +1,12 @@
 export default function Form() {
     return (
         <div id="contact" className="contactanos">
-            <h2>Contactanos</h2>
-            <form>
-                <label htmlFor="name">Nombre</label>
+
+            <h2 className="titulo">Contáctanos</h2>
+
+            <form className="caja">
+
+                <label htmlFor="name" className="name1">Nombre</label>
                 <input
                     type="text"
                     className="name"
@@ -11,7 +14,8 @@ export default function Form() {
                     name="name"
                     placeholder="Ingrese su nombre"
                 />
-                <label htmlFor="email">Correo</label>
+
+                <label htmlFor="email" className="email1">Correo</label>
                 <input
                     type="text"
                     className="email"
@@ -19,17 +23,17 @@ export default function Form() {
                     name="email"
                     placeholder="Ingrese su correo"
                 />
-                <label htmlFor="subject">Nombre</label>
+
+                <label htmlFor="subject" className="subject1">Asunto</label>
                 <textarea
                     name="subject"
                     className="subject"
                     id="subject"
                     placeholder="Ingrese el asunto"
                 >
-
                 </textarea>
 
-                <input type="button" value="Enviar" />
+                <input type="button" value="Enviar" className="boton"/>
             </form>
         </div>
 

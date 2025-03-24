@@ -1,0 +1,84 @@
+@use '../base/variables' as v;
+
+.contactanos{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .titulo{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .caja{
+        width: 60vw;
+        height: 50vh;
+        padding-top: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+        border: 2px solid v.$lila;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px v.$moradoOscuro; 
+        display: flex;
+        flex-direction: column;
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(0,0,0,0.9417016806722689) 60%, rgba(75,32,130,0.891281512605042) 100%);
+
+        .name1{
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .name{
+            background: transparent;
+            border-radius: 8px;
+            height: 30px;
+            font-family: v.$fuenteSecundaria;
+            color: white;
+        }
+
+        .email1{
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .email{
+            background: transparent;
+            border-radius: 8px;
+            height: 30px;
+            font-family: v.$fuenteSecundaria;
+            color: white;
+        }
+
+        .subject1{
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .subject{
+            background: transparent;
+            border-radius: 8px;
+            height: 10vh;
+            font-family: v.$fuenteSecundaria;
+            color: white;
+            resize: none;
+        }
+
+        .boton{
+            background: black;
+            border-radius: 8px;
+            margin-top: 20px;
+            height: 5vh;
+            color: v.$lila;
+            border: 2px solid v.$lila;
+        }
+        .boton:hover {
+            background: black;
+            border-radius: 8px;
+            margin-top: 20px;
+            height: 5vh;
+            border-radius: 8px;
+            border: 2px solid v.$lila;
+            box-shadow: 0px 0px 15px v.$lilaClarito; 
+        }
+    }
+}

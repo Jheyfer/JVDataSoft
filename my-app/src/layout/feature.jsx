@@ -43,7 +43,7 @@ export default function feature() {
                         <div className="circulo">
                             <i class="fa-solid fa-mobile"></i>
                         </div>
-                        <p><span>100% Responsivo: </span>v<br/>
+                        <p><span>100% Responsivo: </span><br/>
                         Se ve perfecto en computadoras y móviles.</p>
                     </div>
                     <div className="item2">
