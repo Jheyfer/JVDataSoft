@@ -1,9 +1,9 @@
 export default function Service() {
     return (
-        <div>
+        <div className="service">
             <h2>Servicios</h2>
-            <div>
-                <div>
+            <div className="service-list">
+                <div className="service-item">
                     <h3>Desarrollo de Sitios Web Personalizados</h3>
                     <ul>
                         <li>Diseño a medida para tu negocio</li>
@@ -11,7 +11,7 @@ export default function Service() {
                         <li>Integración con herramientas como WhatsApp, Chatbots, etc.</li>
                     </ul>
                 </div>
-                <div>
+                <div className="service-item">
                     <h3>Tiendas Online (E-commerce)</h3>
                     <ul>
                         <li>Carrito de compras funcional</li>
@@ -19,7 +19,7 @@ export default function Service() {
                         <li>Gestión de inventario y pedidos</li>
                     </ul>
                 </div>
-                <div>
+                <div className="service-item">
                     <h3>Landing Pages para Empresas o Productos</h3>
                     <ul>
                         <li>Páginas rápidas y optimizadas para conversiones</li>
@@ -27,7 +27,7 @@ export default function Service() {
                         <li>Análisis y seguimiento de visitantes</li>
                     </ul>
                 </div>
-                <div>
+                <div className="service-item">
                     <h3>Mantenimiento y Soporte Técnico</h3>
                     <ul>
                         <li>Actualizaciones de seguridad y rendimiento</li>
@@ -35,7 +35,7 @@ export default function Service() {
                         <li>Soporte vía WhatsApp o email</li>
                     </ul>
                 </div>
-                <div>
+                <div className="service-item">
                     <h3>Optimización y Posicionamiento SEO</h3>
                     <ul>
                         <li>Mejora en los resultados de Google</li>
