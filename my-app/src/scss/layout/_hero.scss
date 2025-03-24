@@ -3,60 +3,61 @@
 
 .hero {
     position: relative;
-    width: 100vw;
-    height: 50vh;
+    width: 100%;
+    height: 500px;
     display: flex;
-    align-items: end; 
-    justify-content: start; 
+    align-items: end;
+    justify-content: start;
     overflow: hidden;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
     text-align: start;
 
-    
+
     .hero__bg {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 500px;
         object-fit: cover;
-        filter: blur(3px); 
+        filter: blur(3px);
         z-index: -2;
     }
 
-    
+
     .hero__overlay {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(75,32,130,0.8) 100%);
-        z-index: -1; 
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(75, 32, 130, 0.8) 100%);
+        z-index: -1;
     }
 
     .hero__content {
         position: relative;
         color: white;
         text-align: center;
-        z-index: 1; 
-        text-align: start; 
+        z-index: 1;
+        text-align: start;
 
         .titulo {
             color: white;
-            font-size: 2rem;
+            font-size: 1.7rem;
             text-align: left;
-            padding-left: 20px; 
+            padding-left: 20px;
         }
 
         .texto {
             color: white;
             padding-right: 100px;
             padding-left: 20px;
+            margin: 0 0 30px;
 
             .soft {
                 color: v.$lila;
-                font-weight: bold; 
+                font-weight: bold;
             }
         }
 
@@ -73,6 +74,7 @@
                 color: v.$lila;
             }
         }
+
         .boton:hover {
             width: 160px;
             height: 40px;
@@ -80,7 +82,7 @@
             margin-left: 20px;
             border-radius: 7px;
             border: 2px solid v.$lila;
-            box-shadow: 0px 0px 15px v.$lilaClarito; 
+            box-shadow: 0px 0px 15px v.$lilaClarito;
 
             .botontx {
                 color: v.$lilaClarito;
@@ -89,94 +91,51 @@
     }
 }
 
-@include m.tablet{
+@include m.tablet {
     .hero {
-        position: relative;
-        width: 100vw;
-        height: 50vh;
-        display: flex;
-        align-items: end; 
-        justify-content: start; 
-        overflow: hidden;
-        padding-bottom: 40px; 
-        text-align: start;
-        
-        .hero__bg {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            filter: blur(3px); 
-            z-index: -2;
-        }
-
-        
-        .hero__overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(75,32,130,0.8) 100%);
-            z-index: -1; 
-        }
+        height: 600px;
 
         .hero__content {
-            position: relative;
-            color: white;
-            text-align: center;
-            z-index: 1; 
-            text-align: start; 
-
             .titulo {
-                color: white;
-                font-size: 42px;
-                text-align: left;
-                padding-left: 40px; 
-                padding-right: 160px;
+                font-size: 2.7rem;
+                width: 60%;
             }
 
             .texto {
-                color: white;
-                padding-right: 120px;
-                padding-left: 40px;
-                font-size: 28px;
-
-                .soft {
-                    color: v.$lila;
-                    font-weight: bold; 
-                }
+                font-size: 1.5rem;
+                margin-bottom: 40px;
             }
 
             .boton {
-                width: 240px;
-                height: 70px;
-                background: black;
-                margin-left: 40px;
-                border-radius: 7px;
-                border: 2px solid v.$lila;
-
-                .botontx {
-                    text-decoration: none;
-                    color: v.$lila;
-                    font-size: 32px;
-                }
+                width: 200px;
+                height: 50px;
+                font-size: 1.5rem;
             }
-            .boton:hover {
-                width: 240px;
-                height: 70px;
-                background: black;
-                margin-left: 40px;
-                border-radius: 7px;
-                border: 2px solid v.$lila;
-                box-shadow: 0px 0px 15px v.$lilaClarito; 
+        }
+    }
+}
 
-                .botontx {
-                    color: v.$lilaClarito;
-                    font-size: 32px;
-                }
+@include m.desktop {
+    .hero {
+        height: 480px;
+        margin: 0;
+        // padding: 0;
+
+        .hero__content {
+            .titulo {
+                font-size: 3rem;
+                width: 70%;
+            }
+
+            .texto {
+                font-size: 1.8rem;
+                margin-bottom: 60px;
+            }
+
+            .boton {
+                width: 300px;
+                height: 60px;
+                font-size: 1.8rem;
             }
         }
     }

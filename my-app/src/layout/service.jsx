@@ -1,6 +1,6 @@
 export default function Service() {
     return (
-        <div className="service">
+        <div className="service" id="services">
             <h2>Servicios</h2>
             <div className="service-list">
                 <div className="service-item">

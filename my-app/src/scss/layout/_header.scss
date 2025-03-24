@@ -28,8 +28,37 @@
 
 }
 
+
+.nav-links {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    bottom: 0;
+    background-color: v.$negro;
+    margin: 0;
+    padding: 10px 2px;
+
+
+    li {
+        padding: 6px;
+        border-radius: 8px;
+
+        &:active {
+            color: v.$lila;
+        }
+
+        &:hover {
+            color: v.$lila;
+        }
+    }
+}
+
 @include m.tablet {
     .navbar {
+        width: 100%;
 
         .imageHeader {
             height: 75px;
@@ -40,18 +69,34 @@
             font-size: 2.1rem;
         }
     }
+
+    .nav-links {
+        margin-right: 40px;
+        position: relative;
+        justify-content: flex-end;
+
+        a {
+            font-size: 1.2rem;
+        }
+    }
 }
 
 @include m.desktop {
     .navbar {
 
         .imageHeader {
-            height: 90px;
-            width: 90px;
+            height: 100px;
+            width: 100px;
         }
 
         .header-tittle {
             font-size: 2.8rem;
+        }
+    }
+
+    .nav-links {
+        a {
+            font-size: 1.4rem;
         }
     }
 }

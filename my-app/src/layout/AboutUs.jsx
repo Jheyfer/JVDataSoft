@@ -1,6 +1,6 @@
 export default function SobreNosotros() {
     return (
-        <div className="sobre-nosotros">
+        <div className="sobre-nosotros" id="about">
 
             <h2>Sobre Nosotros</h2>
 
