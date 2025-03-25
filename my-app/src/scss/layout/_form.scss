@@ -11,7 +11,7 @@
     }
 
     .caja {
-        width: 80%;
+        width: 60%;
         margin: 0 auto;
         border: 2px solid v.$lila;
         padding: 20px;
@@ -19,13 +19,15 @@
         box-shadow: 0px 0px 10px v.$moradoOscuro;
         background: rgb(0, 0, 0);
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.9417016806722689) 60%, rgba(75, 32, 130, 0.891281512605042) 100%);
-
+        display: flex;
+        flex-direction: column;
 
         label,
         input,
         textarea {
             display: block;
             margin: 0 auto;
+            align-items: start;
         }
 
 
@@ -41,7 +43,6 @@
 
         textarea {
             height: 10%;
-
             resize: none;
         }
 

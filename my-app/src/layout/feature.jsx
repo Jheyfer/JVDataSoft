@@ -27,7 +27,7 @@ export default function feature() {
                             <i class="fa-solid fa-gear"></i>
                         </div>
                         <p><span>Seguridad y estabilidad: </span><br />
-                            Protección contra ataques y caídas.</p>
+                            Protección contra ataques y caídas. <br /></p>
                     </div>
                     <div className="item2">
                         <div className="circulo">
