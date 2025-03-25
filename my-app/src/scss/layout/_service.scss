@@ -17,9 +17,7 @@
 .service-list {
     display: flex;
     flex-direction: column;
-
-
-
+    padding-bottom: 20px;
 
     h3 {
         font-size: 1.1rem;
@@ -28,6 +26,7 @@
         height: 50px;
         border-bottom: 1px solid v.$lila;
         align-content: center;
+        color: v.$lila;
         // &::after {
         //     content: '';
         //     display: block;
@@ -45,7 +44,6 @@
 
         li {
             list-style: outside;
-
         }
     }
 }

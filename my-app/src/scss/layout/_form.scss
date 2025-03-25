@@ -1,17 +1,19 @@
 @use '../base/variables' as v;
+@use '../base/mixins' as m;
 
 .contactanos {
     width: 90%;
     height: 70%;
     margin: 0 auto;
-
+    padding-bottom: 60px;
+    
     .titulo {
         text-align: center;
         margin-bottom: 24px;
     }
 
     .caja {
-        width: 60%;
+        width: 70%;
         margin: 0 auto;
         border: 2px solid v.$lila;
         padding: 20px;
@@ -22,12 +24,16 @@
         display: flex;
         flex-direction: column;
 
+        label{
+            width: 85%;
+            padding-top: 15px;
+            padding-bottom: 10px;
+        }
         label,
         input,
         textarea {
             display: block;
             margin: 0 auto;
-            align-items: start;
         }
 
 
@@ -36,21 +42,25 @@
             background: transparent;
             border-radius: 8px;
             height: 40px;
-            width: 70%;
+            width: 85%;
             font-family: v.$fuenteSecundaria;
             color: white;
+            box-shadow: 0px 0px 5px v.$moradoOscuro;
+            border: 2px solid v.$lila;
+            padding-left: 15px;
         }
 
         textarea {
-            height: 10%;
+            height: 80px;
             resize: none;
+            padding-top: 5px;
         }
 
         .boton {
             background: black;
             border-radius: 8px;
             margin-top: 20px;
-            height: 5vh;
+            height: 6vh;
             color: v.$lila;
             border: 2px solid v.$lila;
         }
@@ -59,10 +69,66 @@
             background: black;
             border-radius: 8px;
             margin-top: 20px;
-            height: 5vh;
+            height: 6vh;
             border-radius: 8px;
             border: 2px solid v.$lila;
             box-shadow: 0px 0px 15px v.$lilaClarito;
         }
     }
+}
+
+@include m.tablet {
+    .titulo{
+        font-size: 2.2rem;
+    }
+    .caja{
+        padding-bottom: 30px !important;
+
+        label,
+        input,
+        textarea {
+            font-size: 1.15rem;
+            max-width: 70%;
+        }
+
+        .boton{
+            font-size: 1.4rem !important;
+        }
+    }
+    
+}
+
+@include m.desktop {
+
+    .titulo{
+        font-size: 2.4rem;
+    }
+
+    .caja{
+        padding-bottom: 50px !important;
+
+        label{
+            padding-top: 40px !important;
+            padding-bottom: 20px !important;
+        }
+
+        label,
+        input,
+        textarea {
+            font-size: 1.5rem;
+        }
+
+
+        textarea {
+            resize: none;
+            padding-top: 5px;
+            padding-top: 15px;
+        }
+
+        .boton{
+            font-size: 2rem;
+            max-height: 8vh;
+        }
+    }
+    
 }

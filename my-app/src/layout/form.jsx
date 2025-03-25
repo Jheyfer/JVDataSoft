@@ -4,7 +4,7 @@ export default function Form() {
 
             <h2 className="titulo">Contáctanos</h2>
 
-            <form className="caja">
+            <form className="caja" action="https://formsubmit.co/jvdatasoft@gmail.com" method="POST" >
 
                 <label htmlFor="name" className="name1">Nombre</label>
                 <input
@@ -33,7 +33,11 @@ export default function Form() {
                 >
                 </textarea>
 
-                <input type="button" value="Enviar" className="boton"/>
+                <input type="submit" value="Enviar" className="boton"/>
+
+                <input type="hidden" name="_next" value="http://localhost:5173/" />
+
+                <input type="hidden" name="_captcha" value="false" />
             </form>
         </div>
 
