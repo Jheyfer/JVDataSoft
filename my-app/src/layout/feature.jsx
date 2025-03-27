@@ -48,6 +48,7 @@ export default function feature() {
                     </div>
                     <div className="item2">
                         <div className="circulo">
+                            <div id="services"></div>
                             <i class="fa-solid fa-calendar"></i>
                         </div>
                         <p>¡Lanza tu sitio en días, no en meses!</p>

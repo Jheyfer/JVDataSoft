@@ -1,6 +1,6 @@
 export default function Service() {
     return (
-        <div className="service" id="services">
+        <div className="service" >
             <h2>Servicios</h2>
             <div className="service-list">
                 <div className="service-item">
@@ -40,6 +40,7 @@ export default function Service() {
                     <ul>
                         <li>Mejora en los resultados de Google</li>
                         <li>Estrategias de palabras clave</li>
+                        <div id="contact"></div>
                         <li>Integración con Google Analytics y Search Console</li>
                     </ul>
                 </div>

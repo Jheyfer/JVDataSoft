@@ -1,6 +1,6 @@
 export default function Form() {
     return (
-        <div id="contact" className="contactanos">
+        <div className="contactanos">
 
             <h2 className="titulo">Contáctanos</h2>
 

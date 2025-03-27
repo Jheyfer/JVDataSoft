@@ -9,6 +9,7 @@ export default function Hero() {
                 <p className='texto'>
                     En JVData<span className='soft'>Soft</span>, diseñamos sitios profesionales, rápidos y optimizados.
                 </p>
+                <div id="about"></div>
                 <button className="boton">
                     <a href="#contact" className='botontx'>¡Contáctanos!</a>
                 </button>

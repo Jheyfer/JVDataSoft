@@ -1,6 +1,6 @@
 export default function SobreNosotros() {
     return (
-        <div className="sobre-nosotros" id="about">
+        <div className="sobre-nosotros">
 
             <h2>Sobre Nosotros</h2>
 
@@ -12,7 +12,7 @@ export default function SobreNosotros() {
                     tiendas online hasta sitios corporativos,
                     diseñamos soluciones a tu medida con integración de pago,
                     SEO y soporte continuo.</p>
-                <img src="../../../src/assets/JVD_Logo2_oscuro.png" alt="Fondo" />
+                <img src="build/img/JVD_Logo2_oscuro.png" alt="Fondo" />
             </div>
         </div>
     )
