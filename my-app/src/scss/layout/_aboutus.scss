@@ -6,7 +6,6 @@
     padding: 12px;
 
     h2 {
-        font-size: 2rem;
         text-align: center;
         margin-bottom: 12px;
     }
@@ -36,7 +35,6 @@
 
     .sobre-nosotros {
         h2 {
-            font-size: 2.2rem;
             margin-bottom: 16px;
         }
     }
@@ -45,10 +43,6 @@
         flex-direction: row;
         gap: 32px;
 
-        p {
-            font-size: 1.15rem;
-        }
-
     }
 }
 
@@ -56,7 +50,6 @@
 
     .sobre-nosotros {
         h2 {
-            font-size: 2.4rem;
             margin-bottom: 20px;
         }
     }
@@ -64,9 +57,7 @@
     .sobre-nosotros-info {
         gap: 64px;
 
-        p {
-            font-size: 1.4rem;
-        }
+
 
     }
 }

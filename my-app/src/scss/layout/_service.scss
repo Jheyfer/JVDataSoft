@@ -20,20 +20,13 @@
     padding-bottom: 20px;
 
     h3 {
-        font-size: 1.1rem;
-        padding-bottom: 4px;
+        padding-bottom: 10px;
         text-align: center;
         height: 50px;
         border-bottom: 1px solid v.$lila;
         align-content: center;
         color: v.$lila;
-        // &::after {
-        //     content: '';
-        //     display: block;
-        //     width: 100%;
-        //     height: 1px;
-        //     background-color: v.$lila;
-        // }
+
     }
 
     .service-item {
@@ -52,7 +45,6 @@
 
     .service {
         h2 {
-            font-size: 2.2rem;
             margin-bottom: 16px;
         }
     }
@@ -64,13 +56,9 @@
         flex-wrap: wrap;
 
         h3 {
-            font-size: 1.3rem;
-            padding-bottom: 8px;
+            padding-bottom: 45px;
         }
 
-        p {
-            font-size: 1.2rem;
-        }
 
         .service-item {
             width: 35%;
@@ -84,19 +72,13 @@
 
     .service {
         h2 {
-            font-size: 2.4rem;
             margin-bottom: 24px;
         }
     }
 
     .service-list {
         h3 {
-            font-size: 1.5rem;
-            padding-bottom: 12px;
-        }
-
-        p {
-            font-size: 1.5rem;
+            padding-bottom: 25px;
         }
 
         .service-item {

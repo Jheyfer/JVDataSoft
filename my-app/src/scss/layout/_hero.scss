@@ -53,7 +53,8 @@
             color: white;
             padding-right: 100px;
             padding-left: 20px;
-            margin: 0 0 30px;
+            margin-bottom: 20px;
+            margin-top: 10px;
 
             .soft {
                 color: v.$lila;
@@ -68,25 +69,15 @@
             margin-left: 20px;
             border-radius: 7px;
             border: 2px solid v.$lila;
+            color: v.$lila;
 
-            .botontx {
-                text-decoration: none;
-                color: v.$lila;
-            }
         }
 
         .boton:hover {
-            width: 160px;
-            height: 40px;
-            background: black;
-            margin-left: 20px;
-            border-radius: 7px;
-            border: 2px solid v.$lila;
             box-shadow: 0px 0px 15px v.$lilaClarito;
-
-            .botontx {
-                color: v.$lilaClarito;
-            }
+            color: v.$lilaClarito;
+            transition: color 0.8s ease-out;
+            transition: box-shadow 0.5s ease-in-out;
         }
     }
 }
@@ -97,25 +88,20 @@
 
         .hero__content {
             .titulo {
-                font-size: 2.7rem;
                 width: 60%;
+                font-size: 2.2rem;
             }
 
             .texto {
-                font-size: 1.5rem;
-                margin-bottom: 40px;
+                font-size: 1.45rem;
             }
+
 
             .boton {
                 width: 200px;
                 height: 50px;
-                font-size: 1.5rem;
             }
-            .boton:hover {
-                width: 200px;
-                height: 50px;
-                font-size: 1.5rem;
-            }
+
         }
     }
 }
@@ -124,29 +110,21 @@
     .hero {
         height: 480px;
         margin: 0;
-        // padding: 0;
 
         .hero__content {
             .titulo {
-                font-size: 3rem;
                 width: 70%;
             }
 
             .texto {
-                font-size: 1.8rem;
-                margin-bottom: 60px;
+                margin-bottom: 30px;
             }
 
             .boton {
                 width: 300px;
                 height: 60px;
-                font-size: 1.8rem;
             }
-            .boton:hover {
-                width: 300px;
-                height: 60px;
-                font-size: 1.8rem;
-            }
+
         }
     }
 }

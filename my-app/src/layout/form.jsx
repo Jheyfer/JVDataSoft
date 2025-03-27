@@ -33,7 +33,7 @@ export default function Form() {
                 >
                 </textarea>
 
-                <input type="submit" value="Enviar" className="boton"/>
+                <input type="submit" value="Enviar" className="boton" />
 
                 <input type="hidden" name="_next" value="http://localhost:5173/" />
 
