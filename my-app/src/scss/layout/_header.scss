@@ -57,7 +57,11 @@
 
 @include m.tablet {
     .navbar {
+        background-color: v.$negro;
         width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 100;
 
         .imageHeader {
             height: 75px;
