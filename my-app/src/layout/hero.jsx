@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
         <div className="hero">
-            <img src="../img/walling-XLqiL-rz4V8-unsplash.jpg" alt="Fondo" className="hero__bg" />
+            <img src="build/img/walling-XLqiL-rz4V8-unsplash.jpg" alt="Fondo" className="hero__bg" />
             <div className="hero__overlay"></div>
 
             <div className="hero__content">
