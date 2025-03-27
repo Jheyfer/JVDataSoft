@@ -35,7 +35,7 @@ export default function Form() {
 
                 <input type="submit" value="Enviar" className="boton" />
 
-                <input type="hidden" name="_next" value="http://localhost:5173/" />
+                <input type="hidden" name="_next" value="https://jv-data-soft.vercel.app/" />
 
                 <input type="hidden" name="_captcha" value="false" />
             </form>
